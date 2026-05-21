@@ -14,7 +14,7 @@ features = [
     "ht_streak"
 ]
 
-with open("features.json", "w") as f:
-    json.dump(features, f)
+with open("features.json", "w", encoding="utf-8") as f:
+    json.dump(features, f, indent=4)
 
-print("✅ features.json fixed")
+print("✅ features.json recreated successfully")
