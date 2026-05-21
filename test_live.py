@@ -17,7 +17,7 @@ CHANNEL = "FC25stat3x3"
 model = joblib.load("model_ht.pkl")
 features = json.load(open("features.json"))
 
-client = TelegramClient("test_session", api_id, api_hash)
+client = TelegramClient("cloud_session", api_id, api_hash)
 
 print("🔌 Connecting to Telegram...")
 
