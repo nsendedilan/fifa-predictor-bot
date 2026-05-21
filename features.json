@@ -1,0 +1,20 @@
+import json
+
+features = [
+    "hour_sin",
+    "hour_cos",
+    "minute_sin",
+    "minute_cos",
+    "day_of_week",
+    "prev_2_ht_even",
+    "prev_3_ht_even",
+    "prev_4_ht_even",
+    "ht_even_last_5",
+    "ht_even_last_10",
+    "ht_streak"
+]
+
+with open("features.json", "w") as f:
+    json.dump(features, f)
+
+print("✅ features.json fixed")
