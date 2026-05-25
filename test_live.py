@@ -11,7 +11,7 @@ from parser import parse_match
 api_id = 30680366
 api_hash = "a13532c39b889ab227cde5861caa5637"
 
-CHANNEL = "https://t.me/Statistica_Besplatno"
+CHANNEL = "FC25stat3x3"
 
 # --- LOAD MODEL ---
 model = joblib.load("model_ht.pkl")
