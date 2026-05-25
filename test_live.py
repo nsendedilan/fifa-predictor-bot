@@ -1,4 +1,3 @@
-
 from telethon import TelegramClient, events
 import joblib
 import json
