@@ -42,7 +42,7 @@ def build_features(timestamp, hist):
     }])
 
 # --- PRELOAD HISTORY ---
-async def preload_history(limit=500):
+async def preload_history(limit=200):
     print("⏳ Loading past history...")
     
     async for msg in client.iter_messages(CHANNEL, limit=limit):
@@ -218,7 +218,3 @@ async def main():
     await preload_history()
     print("🚀 Listening to channel...")
     await client.run_until_disconnected()
-
-with client:
->>>>>>> 1c8f464 (reduced to 200 pre_upload)
-    client.loop.run_until_complete(main())
