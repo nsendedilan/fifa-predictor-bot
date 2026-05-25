@@ -66,3 +66,4 @@ def get_features():
         
         # optional diagnostics
         "history_size": len(history)
+    }
