@@ -41,7 +41,7 @@ def build_features(timestamp, hist):
     }])
 
 # --- PRELOAD HISTORY ---
-async def preload_history(limit=200):
+async def preload_history(limit=72):
     print("⏳ Loading past history...")
     
     async for msg in client.iter_messages(CHANNEL, limit=limit):

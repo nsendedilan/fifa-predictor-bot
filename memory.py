@@ -4,7 +4,7 @@ import numpy as np
 history = []
 
 # how many recent matches to keep in memory
-MAX_HISTORY = 200
+MAX_HISTORY = 72
 
 
 # --- UPDATE MEMORY ---
